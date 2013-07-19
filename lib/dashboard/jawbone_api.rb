@@ -4,7 +4,8 @@ module Dashboard::JawboneAPI
 
   def jawbone_up_session
     @up = JawboneUP::Session.new
-    @up.signin ENV['JAWBONE_UP_EMAIL'], ENV['JAWBONE_UP_PWD']
+    #@up.signin ENV['JAWBONE_UP_EMAIL'], ENV['JAWBONE_UP_PWD']
+    @up.signin "quaranto@gmail.com", ""
   end
 
   def new_sleep

@@ -22,3 +22,5 @@ gem 'faraday'
 gem 'awesome_print'
 gem 'simplificator-withings'
 gem 'ruby-hmac'
+
+gem "rails-erd"
